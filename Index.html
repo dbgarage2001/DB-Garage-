@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DB Garage - Autodetailing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>DB Garage</h1>
+      <p>Profesjonalny autodetailing dla Twojego samochodu</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#uslugi">Usługi</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="uslugi">
+    <h2>Nasze usługi</h2>
+    <p>Oferujemy szeroką gamę usług detailingowych, w tym mycie, polerowanie, renowację lakieru i wiele innych!</p>
+    <ul>
+      <li>Mycie i czyszczenie wnętrza</li>
+      <li>Polerowanie lakieru</li>
+      <li>Detailing wnętrza</li>
+      <li>Renowacja tapicerki skórzanej</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <img src="https://via.placeholder.com/400" alt="Przed Detailingiem">
+      <img src="https://via.placeholder.com/400" alt="Po Detailingiem">
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Chcesz umówić się na usługę? Skontaktuj się z nami!</p>
+    <form id="kontaktForm" method="POST">
+      <label for="imie">Imię:</label>
+      <input type="text" id="imie" name="imie" required>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="wiadomosc">Wiadomość:</label>
+      <textarea id="wiadomosc" name="wiadomosc" required></textarea>
+      
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DB Garage. Wszystkie prawa zastrzeżone.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
